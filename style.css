@@ -103,3 +103,20 @@ button {
   left: -50%;
   transform: translateX(-50%);
 }
+
+@media screen and (max-width: 500px) {
+  .formulario-drive,
+  .formulario-buy {
+    width: 400px;
+  }
+
+  .formulario-drive {
+    right: -90%;
+    transform: translateX(50%);
+  }
+
+  .formulario-buy {
+    left: -90%;
+    transform: translateX(-50%);
+  }
+}

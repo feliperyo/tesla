@@ -6,7 +6,7 @@ function showFormDrive() {
 }
 
 function hideFormDrive() {
-  formDrive.style.right = "-50%";
+  formDrive.style.right = "-90%";
 }
 
 function showFormBuy() {
@@ -14,5 +14,5 @@ function showFormBuy() {
 }
 
 function hideFormBuy() {
-  formBuy.style.left = "-50%";
+  formBuy.style.left = "-90%";
 }

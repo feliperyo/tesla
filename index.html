@@ -24,8 +24,8 @@
             </div>
 
             <div class="rodape">
-                <button>Comprar Agora</button>
-                <button class="test-drive">Faça um Test-Drive</button>
+                <button onclick="showFormBuy()">Comprar Agora</button>
+                <button onclick="showFormDrive()" class="test-drive">Faça um Test-Drive</button>
                 <p class="texto-rodape">Não garantimos seu veículo imediatamente.Consultar estoque*</p>
             </div>
         </li>
@@ -48,7 +48,13 @@
         </li>
     </ul>
 
-    <div class="formulario">
+    <div class="formulario-buy">
+        <button onclick="hideFormBuy()">X</button>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241964824658066"></script>
+    </div>
+
+    <div class="formulario-drive">
+        <button onclick="hideFormDrive()">X</button>
         <script type="text/javascript" src="https://form.jotform.com/jsform/241964918370061"></script>
     </div>
 </body>

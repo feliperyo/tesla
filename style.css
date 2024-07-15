@@ -81,12 +81,25 @@ button {
   margin-top: 10px;
 }
 
-.formulario {
+.formulario-drive,
+.formulario-buy {
   position: fixed;
   top: 40px;
   width: 600px;
   height: 100%;
   z-index: 3;
-  left: 50%;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.formulario-drive {
+  right: -50%;
+  transform: translateX(50%);
+}
+
+.formulario-buy {
+  left: -50%;
   transform: translateX(-50%);
 }
